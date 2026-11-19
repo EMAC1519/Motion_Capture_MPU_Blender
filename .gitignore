@@ -1,0 +1,25 @@
+# Respaldos de Blender
+*.blend[0-9]*
+*.blend@
+# Compilacion y Python
+build/
+.pio/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.elf
+*.hex
+*.bin
+# Configuracion local (no protege secretos dentro de archivos versionados)
+.env
+.env.*
+!.env.example
+secrets.h
+config.local.*
+# Temporales
+~$*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
